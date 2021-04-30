@@ -10,6 +10,7 @@
 		442B9FCD263783030011B0DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 442B9FCC263783030011B0DA /* README.md */; };
 		44603B3E2638A82D009EE1AC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44603B3D2638A82D009EE1AC /* LandmarkList.swift */; };
 		44603B412638AA9C009EE1AC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44603B402638AA9C009EE1AC /* LandmarkDetail.swift */; };
+		44FE329E263B80EC004CBA98 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE329D263B80EC004CBA98 /* FavoriteButton.swift */; };
 		44FFAC8E26377E7A00DA6CE0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC8C26377E7A00DA6CE0 /* ModelData.swift */; };
 		44FFAC8F26377E7A00DA6CE0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC8D26377E7A00DA6CE0 /* Landmark.swift */; };
 		44FFAC9226377E9300DA6CE0 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 44FFAC9126377E9300DA6CE0 /* landmarkData.json */; };
@@ -26,6 +27,7 @@
 		442B9FCC263783030011B0DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		44603B3D2638A82D009EE1AC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		44603B402638AA9C009EE1AC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		44FE329D263B80EC004CBA98 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		44FFAC8C26377E7A00DA6CE0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		44FFAC8D26377E7A00DA6CE0 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		44FFAC9126377E9300DA6CE0 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -51,6 +53,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44FE32A0263B82AF004CBA98 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44FFAC9426377EA900DA6CE0 /* MapView.swift */,
+				44FFAC9526377EA900DA6CE0 /* CircleImage.swift */,
+				44FE329D263B80EC004CBA98 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44FE32A2263B82D5004CBA98 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				44FFAC9626377EA900DA6CE0 /* LandmarkRow.swift */,
+				44603B3D2638A82D009EE1AC /* LandmarkList.swift */,
+				44603B402638AA9C009EE1AC /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		44FFAC8B26377E7A00DA6CE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,12 +93,9 @@
 		44FFAC9326377EA900DA6CE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				44FFAC9426377EA900DA6CE0 /* MapView.swift */,
-				44FFAC9526377EA900DA6CE0 /* CircleImage.swift */,
-				44FFAC9626377EA900DA6CE0 /* LandmarkRow.swift */,
 				44FFAC9726377EA900DA6CE0 /* ContentView.swift */,
-				44603B3D2638A82D009EE1AC /* LandmarkList.swift */,
-				44603B402638AA9C009EE1AC /* LandmarkDetail.swift */,
+				44FE32A2263B82D5004CBA98 /* Landmarks */,
+				44FE32A0263B82AF004CBA98 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +213,7 @@
 				DD66413F262FEC53009F3A3D /* LandmarksApp.swift in Sources */,
 				44FFAC9B26377EA900DA6CE0 /* ContentView.swift in Sources */,
 				44FFAC9826377EA900DA6CE0 /* MapView.swift in Sources */,
+				44FE329E263B80EC004CBA98 /* FavoriteButton.swift in Sources */,
 				44603B3E2638A82D009EE1AC /* LandmarkList.swift in Sources */,
 				44603B412638AA9C009EE1AC /* LandmarkDetail.swift in Sources */,
 				44FFAC8E26377E7A00DA6CE0 /* ModelData.swift in Sources */,
