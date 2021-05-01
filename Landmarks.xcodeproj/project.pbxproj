@@ -126,6 +126,7 @@
 			children = (
 				44FFAC8C26377E7A00DA6CE0 /* ModelData.swift */,
 				44FFAC8D26377E7A00DA6CE0 /* Landmark.swift */,
+				44FE32BC263CAB1D004CBA98 /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,7 +148,6 @@
 				44FE32A2263B82D5004CBA98 /* Landmarks */,
 				44FE32A0263B82AF004CBA98 /* Helpers */,
 				44FE32B7263BA224004CBA98 /* Badges */,
-				44FE32BC263CAB1D004CBA98 /* Hike.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
