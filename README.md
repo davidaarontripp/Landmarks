@@ -1,4 +1,4 @@
-# Swiftui Tutorials
+# SwiftUI Tutorials
 
 ## This repository was created using the SwiftUI Tutorials located at developer.apple.com/tutorials/swiftui/
 
@@ -20,7 +20,7 @@ The tutorial includes:
 1. Composing Complex Interfaces
 2. Working with UI Controls
 
-### Chapter 3: Framework Integration
+### Chapter 4: Framework Integration
 
 1. Interfacing with UIKit
 2. Creating a watchOS App
