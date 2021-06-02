@@ -41,6 +41,7 @@
 		447843D726681C4300E4AC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD664142262FEC53009F3A3D /* Assets.xcassets */; };
 		447843D826681C4300E4AC6F /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE32BC263CAB1D004CBA98 /* Hike.swift */; };
 		447843D926681C4300E4AC6F /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 44FE32B9263CAAED004CBA98 /* hikeData.json */; };
+		447843DE26682B4900E4AC6F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447843DD26682B4900E4AC6F /* LandmarkDetail.swift */; };
 		449C222326409B1200D83559 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C222226409B1200D83559 /* CategoryRow.swift */; };
 		449C222626409D7F00D83559 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C222526409D7F00D83559 /* CategoryItem.swift */; };
 		44B35357263CAE84003F4482 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B35353263CAE84003F4482 /* GraphCapsule.swift */; };
@@ -136,6 +137,7 @@
 		447843B6266817D900E4AC6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		447843B8266817D900E4AC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447843B9266817DA00E4AC6F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		447843DD26682B4900E4AC6F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		449C222226409B1200D83559 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		449C222526409D7F00D83559 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		44B35353263CAE84003F4482 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				447843AD266817D200E4AC6F /* NotificationController.swift */,
 				447843AF266817D200E4AC6F /* NotificationView.swift */,
 				447843B1266817D200E4AC6F /* ComplicationController.swift */,
+				447843DD26682B4900E4AC6F /* LandmarkDetail.swift */,
 				447843B3266817D900E4AC6F /* Assets.xcassets */,
 				447843B8266817D900E4AC6F /* Info.plist */,
 				447843B9266817DA00E4AC6F /* PushNotificationPayload.apns */,
@@ -513,6 +516,7 @@
 				447843AC266817D200E4AC6F /* ContentView.swift in Sources */,
 				447843D826681C4300E4AC6F /* Hike.swift in Sources */,
 				447843D026681C4300E4AC6F /* LandmarkList.swift in Sources */,
+				447843DE26682B4900E4AC6F /* LandmarkDetail.swift in Sources */,
 				447843D626681C4300E4AC6F /* ModelData.swift in Sources */,
 				447843B2266817D200E4AC6F /* ComplicationController.swift in Sources */,
 				447843B0266817D200E4AC6F /* NotificationView.swift in Sources */,
