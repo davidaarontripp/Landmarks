@@ -31,7 +31,6 @@
 		447843BC266817DA00E4AC6F /* WatchLandmarks.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4478439B266817CA00E4AC6F /* WatchLandmarks.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		447843CE26681C4300E4AC6F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC8D26377E7A00DA6CE0 /* Landmark.swift */; };
 		447843CF26681C4300E4AC6F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66413E262FEC53009F3A3D /* LandmarksApp.swift */; };
-		447843D026681C4300E4AC6F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44603B3D2638A82D009EE1AC /* LandmarkList.swift */; };
 		447843D126681C4300E4AC6F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC9426377EA900DA6CE0 /* MapView.swift */; };
 		447843D226681C4300E4AC6F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4418FAA526431102009E153E /* Profile.swift */; };
 		447843D326681C4300E4AC6F /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC9626377EA900DA6CE0 /* LandmarkRow.swift */; };
@@ -67,6 +66,7 @@
 		44DF095926683AE900F12752 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4418FAA526431102009E153E /* Profile.swift */; };
 		44DF095A26683AE900F12752 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFAC8D26377E7A00DA6CE0 /* Landmark.swift */; };
 		44DF096226683C0A00F12752 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF096126683C0A00F12752 /* LandmarkDetail.swift */; };
+		44DF096A2668527500F12752 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF09692668527500F12752 /* LandmarkList.swift */; };
 		44FE329E263B80EC004CBA98 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE329D263B80EC004CBA98 /* FavoriteButton.swift */; };
 		44FE32A6263B8858004CBA98 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE32A5263B8858004CBA98 /* HexagonParameters.swift */; };
 		44FE32A9263B889D004CBA98 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44FE32A8263B889D004CBA98 /* LICENSE.txt */; };
@@ -190,6 +190,7 @@
 		44DF093626683A2A00F12752 /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		44DF093826683A2A00F12752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DF096126683C0A00F12752 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		44DF09692668527500F12752 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		44FE329D263B80EC004CBA98 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		44FE32A5263B8858004CBA98 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		44FE32A8263B889D004CBA98 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = Resources/CreatingAndCombiningViews/Resources/LICENSE/LICENSE.txt; sourceTree = SOURCE_ROOT; };
@@ -300,6 +301,7 @@
 				447843AF266817D200E4AC6F /* NotificationView.swift */,
 				447843B1266817D200E4AC6F /* ComplicationController.swift */,
 				447843DD26682B4900E4AC6F /* LandmarkDetail.swift */,
+				44DF09692668527500F12752 /* LandmarkList.swift */,
 				447843B3266817D900E4AC6F /* Assets.xcassets */,
 				447843B8266817D900E4AC6F /* Info.plist */,
 				447843B9266817DA00E4AC6F /* PushNotificationPayload.apns */,
@@ -719,8 +721,8 @@
 				447843D126681C4300E4AC6F /* MapView.swift in Sources */,
 				447843CF26681C4300E4AC6F /* LandmarksApp.swift in Sources */,
 				447843AC266817D200E4AC6F /* ContentView.swift in Sources */,
+				44DF096A2668527500F12752 /* LandmarkList.swift in Sources */,
 				447843D826681C4300E4AC6F /* Hike.swift in Sources */,
-				447843D026681C4300E4AC6F /* LandmarkList.swift in Sources */,
 				447843DE26682B4900E4AC6F /* LandmarkDetail.swift in Sources */,
 				447843D626681C4300E4AC6F /* ModelData.swift in Sources */,
 				447843B2266817D200E4AC6F /* ComplicationController.swift in Sources */,
