@@ -69,6 +69,7 @@
 		44DF096A2668527500F12752 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF09692668527500F12752 /* LandmarkList.swift */; };
 		44DF098A2669A24500F12752 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF09892669A24500F12752 /* LandmarkCommands.swift */; };
 		44DF098B2669A24500F12752 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF09892669A24500F12752 /* LandmarkCommands.swift */; };
+		44DF09992669EA9D00F12752 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF09982669EA9D00F12752 /* LandmarkSettings.swift */; };
 		44FE329E263B80EC004CBA98 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE329D263B80EC004CBA98 /* FavoriteButton.swift */; };
 		44FE32A6263B8858004CBA98 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE32A5263B8858004CBA98 /* HexagonParameters.swift */; };
 		44FE32A9263B889D004CBA98 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44FE32A8263B889D004CBA98 /* LICENSE.txt */; };
@@ -194,6 +195,7 @@
 		44DF096126683C0A00F12752 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		44DF09692668527500F12752 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		44DF09892669A24500F12752 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		44DF09982669EA9D00F12752 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		44FE329D263B80EC004CBA98 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		44FE32A5263B8858004CBA98 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		44FE32A8263B889D004CBA98 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = Resources/CreatingAndCombiningViews/Resources/LICENSE/LICENSE.txt; sourceTree = SOURCE_ROOT; };
@@ -340,6 +342,7 @@
 				44DF091A26683A2200F12752 /* ContentView.swift */,
 				44DF096126683C0A00F12752 /* LandmarkDetail.swift */,
 				44DF09892669A24500F12752 /* LandmarkCommands.swift */,
+				44DF09982669EA9D00F12752 /* LandmarkSettings.swift */,
 				44DF091C26683A2900F12752 /* Assets.xcassets */,
 				44DF092126683A2A00F12752 /* Info.plist */,
 				44DF092226683A2A00F12752 /* MacLandmarks.entitlements */,
@@ -744,6 +747,7 @@
 			files = (
 				44DF095126683AE900F12752 /* Hike.swift in Sources */,
 				44DF095A26683AE900F12752 /* Landmark.swift in Sources */,
+				44DF09992669EA9D00F12752 /* LandmarkSettings.swift in Sources */,
 				44DF095926683AE900F12752 /* Profile.swift in Sources */,
 				44DF091B26683A2200F12752 /* ContentView.swift in Sources */,
 				44DF098B2669A24500F12752 /* LandmarkCommands.swift in Sources */,
