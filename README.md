@@ -1,4 +1,4 @@
-# SwiftUI Tutorials
+# Landmarks
 
 ## This repository was created using the SwiftUI Tutorials located at developer.apple.com/tutorials/swiftui/
 
